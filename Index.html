@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="encriptador.css">
+</head>
+<body>
+    <main>
+        <h1><img src="img/LogologoA.png"></h1>
+       <div class="into-texto">
+           <input id="textoEncripta" class="campo-texto" onkeypress="validar()"
+            placeholder="Texto a encriptar"></textarea>
+            
+       </div>
+        <div class="campo-mensaje">
+            <input id="textoDesencripta" class="mensaje" ></textarea>
+            
+        </div>    
+        <div class="boton">
+            <button class="encripta" onclick="btnEncripta()">Encriptar</button>
+            <button class="desencripta" onclick="btnDesencripta()">Desencriptar</button>
+        </div>
+    </main>
+    <script src="enciptador.js"></script>
+</body>
+</html>

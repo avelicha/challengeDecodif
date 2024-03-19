@@ -1,0 +1,65 @@
+main{
+width: 1440px;
+height: 1024px;
+top: 622px;
+left: -2277px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.into-texto{
+  width: Fixed (680px);
+  height: Hug (67px);
+  top: 885px;
+  left: 240px;
+  gap: 24px;
+  display: inline-block;
+    color: #F3F5FC;
+}
+.campo-texto{
+  
+  width: 577px;
+height: 480px;
+top: 168px;
+left: 240px;
+
+}
+.campo-mensaje{
+    display: inline-block;
+    width: 400px;
+    height: 480px;
+    top: 40px;
+    left: 1000px;
+   
+   
+}
+.mensaje{
+  height: 500px;  
+}
+
+.encripta {
+
+font-weight: 700;
+width: 128px;
+height: 47px;
+padding: 14px 10px;
+gap: 8px;
+border-radius: 4px 4px 4px 4px;
+opacity: 0px;
+background-color: darkblue;
+color: #f2f3f6;
+}
+.desencripta{
+  font-weight: 700;
+  width: 128px;
+  height: 47px;
+  padding: 14px 10px;
+  gap: 8px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+
